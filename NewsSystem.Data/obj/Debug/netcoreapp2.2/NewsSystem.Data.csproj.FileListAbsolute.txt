@@ -1,0 +1,6 @@
+C:\Users\Veysel\source\repos\NewsPortal\NewsSystem.Data\bin\Debug\netcoreapp2.2\NewsSystem.Data.deps.json
+C:\Users\Veysel\source\repos\NewsPortal\NewsSystem.Data\bin\Debug\netcoreapp2.2\NewsSystem.Data.dll
+C:\Users\Veysel\source\repos\NewsPortal\NewsSystem.Data\obj\Debug\netcoreapp2.2\NewsSystem.Data.csprojAssemblyReference.cache
+C:\Users\Veysel\source\repos\NewsPortal\NewsSystem.Data\obj\Debug\netcoreapp2.2\NewsSystem.Data.csproj.CoreCompileInputs.cache
+C:\Users\Veysel\source\repos\NewsPortal\NewsSystem.Data\obj\Debug\netcoreapp2.2\NewsSystem.Data.AssemblyInfoInputs.cache
+C:\Users\Veysel\source\repos\NewsPortal\NewsSystem.Data\obj\Debug\netcoreapp2.2\NewsSystem.Data.AssemblyInfo.cs
