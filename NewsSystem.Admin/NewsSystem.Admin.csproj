@@ -9,8 +9,12 @@
     <PackageReference Include="MySql.Data" Version="8.0.15"/>
     <PackageReference Include="MySql.Data.EntityFrameworkCore" Version="8.0.15"/>
     <PackageReference Include="MySql.Data.EntityFrameworkCore.Design" Version="8.0.15"/>
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="2.2.0"/>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\NewsSystem.Data\NewsSystem.Data.csproj"/>
+  </ItemGroup>
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.0"/>
   </ItemGroup>
 </Project>
