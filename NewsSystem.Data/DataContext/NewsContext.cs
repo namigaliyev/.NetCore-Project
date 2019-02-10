@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Text;
 using Microsoft.EntityFrameworkCore;
 using NewsSystem.Data.Models;
+using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Design;
 
 namespace NewsSystem.Data.DataContext
 {
@@ -12,5 +14,16 @@ namespace NewsSystem.Data.DataContext
         public DbSet<User> Users { get; set;}
 
         public DbSet<Role> Roles { get; set;}
+    }
+
+    public class NewsContextFactory : IDesignTimeDbContextFactory<NewsContext>
+    {
+        public NewsContext CreateDbContext(string[] args)
+        {
+            var optionsBuilder = new DbContextOptionsBuilder<NewsContext>();
+            optionsBuilder.UseMySql("Data Source=NewsPortal.db");
+
+            return new NewsContext(optionsBuilder.Options);
+        }
     }
 }
