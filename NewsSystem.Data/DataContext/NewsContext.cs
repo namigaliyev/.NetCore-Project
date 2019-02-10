@@ -8,8 +8,9 @@ namespace NewsSystem.Data.DataContext
 {
     public class NewsContext : DbContext
     {
-        public DbSet<User> User { get; set; }
+        public NewsContext(DbContextOptions < NewsContext > options): base(options) {}
+        public DbSet<User> Users { get; set;}
 
-        public DbSet<Role> Role { get; set; }
+        public DbSet<Role> Roles { get; set;}
     }
 }

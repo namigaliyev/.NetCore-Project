@@ -16,3 +16,14 @@ C:/Users/Veysel/source/repos/NewsPortal/NewsSystem.Data/obj/Debug/netcoreapp2.1/
 /home/namigaliyev/Desktop/NewsPortal/NewsSystem.Data/obj/Debug/netcoreapp2.1/NewsSystem.Data.AssemblyInfo.cs
 /home/namigaliyev/Desktop/NewsPortal/NewsSystem.Data/obj/Debug/netcoreapp2.1/NewsSystem.Data.dll
 /home/namigaliyev/Desktop/NewsPortal/NewsSystem.Data/obj/Debug/netcoreapp2.1/NewsSystem.Data.pdb
+/home/namigaliyev/Desktop/github/NewsPortal/.NetCore-Project/NewsSystem.Data/obj/Debug/netcoreapp2.1/NewsSystem.Data.csprojAssemblyReference.cache
+/home/namigaliyev/Desktop/github/NewsPortal/.NetCore-Project/NewsSystem.Data/obj/Debug/netcoreapp2.1/NewsSystem.Data.csproj.CoreCompileInputs.cache
+/home/namigaliyev/Desktop/github/NewsPortal/.NetCore-Project/NewsSystem.Data/obj/Debug/netcoreapp2.1/NewsSystem.Data.AssemblyInfoInputs.cache
+/home/namigaliyev/Desktop/github/NewsPortal/.NetCore-Project/NewsSystem.Data/obj/Debug/netcoreapp2.1/NewsSystem.Data.AssemblyInfo.cs
+/home/namigaliyev/Desktop/github/NewsPortal/.NetCore-Project/NewsSystem.Data/obj/Debug/netcoreapp2.1/NewsSystem.Data.dll
+/home/namigaliyev/Desktop/github/NewsPortal/.NetCore-Project/NewsSystem.Data/obj/Debug/netcoreapp2.1/NewsSystem.Data.pdb
+/home/namigaliyev/Desktop/github/NewsPortal/.NetCore-Project/NewsSystem.Data/bin/Debug/netcoreapp2.1/NewsSystem.Data.deps.json
+/home/namigaliyev/Desktop/github/NewsPortal/.NetCore-Project/NewsSystem.Data/bin/Debug/netcoreapp2.1/NewsSystem.Data.dll
+/home/namigaliyev/Desktop/github/NewsPortal/.NetCore-Project/NewsSystem.Data/bin/Debug/netcoreapp2.1/NewsSystem.Data.pdb
+/home/namigaliyev/Desktop/github/NewsPortal/.NetCore-Project/NewsSystem.Data/bin/Debug/netcoreapp2.1/NewsSystem.Data.runtimeconfig.json
+/home/namigaliyev/Desktop/github/NewsPortal/.NetCore-Project/NewsSystem.Data/bin/Debug/netcoreapp2.1/NewsSystem.Data.runtimeconfig.dev.json

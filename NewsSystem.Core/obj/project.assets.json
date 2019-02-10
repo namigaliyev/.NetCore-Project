@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/namigaliyev/Desktop/NewsPortal/NewsSystem.Core/NewsSystem.Core.csproj",
+      "projectUniqueName": "/home/namigaliyev/Desktop/github/NewsPortal/.NetCore-Project/NewsSystem.Core/NewsSystem.Core.csproj",
       "projectName": "NewsSystem.Core",
-      "projectPath": "/home/namigaliyev/Desktop/NewsPortal/NewsSystem.Core/NewsSystem.Core.csproj",
+      "projectPath": "/home/namigaliyev/Desktop/github/NewsPortal/.NetCore-Project/NewsSystem.Core/NewsSystem.Core.csproj",
       "packagesPath": "/home/namigaliyev/.nuget/packages/",
-      "outputPath": "/home/namigaliyev/Desktop/NewsPortal/NewsSystem.Core/obj/",
+      "outputPath": "/home/namigaliyev/Desktop/github/NewsPortal/.NetCore-Project/NewsSystem.Core/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"

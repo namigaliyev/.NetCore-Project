@@ -11799,11 +11799,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/namigaliyev/Desktop/NewsPortal/NewsSystem.Service/NewsSystem.Service.csproj",
+      "projectUniqueName": "/home/namigaliyev/Desktop/github/NewsPortal/.NetCore-Project/NewsSystem.Service/NewsSystem.Service.csproj",
       "projectName": "NewsSystem.Service",
-      "projectPath": "/home/namigaliyev/Desktop/NewsPortal/NewsSystem.Service/NewsSystem.Service.csproj",
+      "projectPath": "/home/namigaliyev/Desktop/github/NewsPortal/.NetCore-Project/NewsSystem.Service/NewsSystem.Service.csproj",
       "packagesPath": "/home/namigaliyev/.nuget/packages/",
-      "outputPath": "/home/namigaliyev/Desktop/NewsPortal/NewsSystem.Service/obj/",
+      "outputPath": "/home/namigaliyev/Desktop/github/NewsPortal/.NetCore-Project/NewsSystem.Service/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"
