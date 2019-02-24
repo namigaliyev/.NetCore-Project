@@ -11,7 +11,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using NewsSystem.Data.DataContext;
-
+using Autofac;
+using Autofac.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
 
 namespace NewsSystem.Admin
 {
@@ -30,8 +32,10 @@ namespace NewsSystem.Admin
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
-        public void ConfigureServices(IServiceCollection services)
+        public IServiceProvider ConfigureServices(IServiceCollection services)
         {
+
+            #region Other DI Configuration
             var sqlConnectionString = Configuration.GetConnectionString("DefaultConnection");
  
             services.AddDbContext<NewsContext>(options =>
@@ -40,6 +44,9 @@ namespace NewsSystem.Admin
                     b => b.MigrationsAssembly("AspNetCoreMultipleProject")
                 )
             );
+
+            services.AddSingleton(Configuration);
+
             services.Configure<CookiePolicyOptions>(options =>
             {
                 // This lambda determines whether user consent for non-essential cookies is needed for a given request.
@@ -48,11 +55,26 @@ namespace NewsSystem.Admin
             });
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+
+            #endregion
+
+            var builder = new Autofac.ContainerBuilder();
+            builder.Populate(services);
+            var container = builder.Build();
+            return container.Resolve<IServiceProvider>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(
+            IApplicationBuilder app,
+            IHostingEnvironment env,
+            ILoggerFactory loggerFactory)
         {
+
+            loggerFactory.AddConsole(this.Configuration.GetSection("Logging"));
+            loggerFactory.AddDebug();
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
