@@ -1,6 +1,6 @@
 {
   "ProjectFilePath": "e:\\Example\\.NetCore-Project\\NewsSystem.Core\\NewsSystem.Core.csproj",
-  "TargetFramework": "netcoreapp2.1",
+  "TargetFramework": "netcoreapp2.2",
   "TagHelpers": [],
   "Configuration": {
     "ConfigurationName": "UnsupportedRazor",

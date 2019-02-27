@@ -1,0 +1,12 @@
+E:\Example\.NetCore-Project\NewsSystem.Core\obj\Debug\netcoreapp2.2\NewsSystem.Core.csprojAssemblyReference.cache
+E:\Example\.NetCore-Project\NewsSystem.Core\obj\Debug\netcoreapp2.2\NewsSystem.Core.csproj.CoreCompileInputs.cache
+E:\Example\.NetCore-Project\NewsSystem.Core\obj\Debug\netcoreapp2.2\NewsSystem.Core.AssemblyInfoInputs.cache
+E:\Example\.NetCore-Project\NewsSystem.Core\obj\Debug\netcoreapp2.2\NewsSystem.Core.AssemblyInfo.cs
+E:\Example\.NetCore-Project\NewsSystem.Core\bin\Debug\netcoreapp2.2\NewsSystem.Core.deps.json
+E:\Example\.NetCore-Project\NewsSystem.Core\bin\Debug\netcoreapp2.2\NewsSystem.Core.dll
+E:\Example\.NetCore-Project\NewsSystem.Core\bin\Debug\netcoreapp2.2\NewsSystem.Core.pdb
+E:\Example\.NetCore-Project\NewsSystem.Core\bin\Debug\netcoreapp2.2\NewsSystem.Data.dll
+E:\Example\.NetCore-Project\NewsSystem.Core\bin\Debug\netcoreapp2.2\NewsSystem.Data.pdb
+E:\Example\.NetCore-Project\NewsSystem.Core\obj\Debug\netcoreapp2.2\NewsSystem.Core.csproj.CopyComplete
+E:\Example\.NetCore-Project\NewsSystem.Core\obj\Debug\netcoreapp2.2\NewsSystem.Core.dll
+E:\Example\.NetCore-Project\NewsSystem.Core\obj\Debug\netcoreapp2.2\NewsSystem.Core.pdb
