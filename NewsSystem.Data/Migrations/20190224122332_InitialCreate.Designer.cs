@@ -2,23 +2,21 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using NewsSystem.Data.DataContext;
 
 namespace NewsSystem.Data.Migrations
 {
     [DbContext(typeof(NewsContext))]
-    partial class NewsContextModelSnapshot : ModelSnapshot
+    [Migration("20190224122332_InitialCreate")]
+    partial class InitialCreate
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-<<<<<<< HEAD
-                .HasAnnotation("ProductVersion", "2.2.1-servicing-10028")
-=======
                 .HasAnnotation("ProductVersion", "2.2.0-rtm-35687")
->>>>>>> 8c2dd74f6bf7b628cc081114ca58de1060e0108d
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
             modelBuilder.Entity("NewsSystem.Data.Models.Image", b =>
@@ -26,25 +24,15 @@ namespace NewsSystem.Data.Migrations
                     b.Property<int>("ID")
                         .ValueGeneratedOnAdd();
 
-<<<<<<< HEAD
-                    b.Property<int?>("NewsID");
-
-                    b.Property<string>("imageUrl");
-=======
                     b.Property<string>("ImageUrl");
 
                     b.Property<int?>("NewsID");
->>>>>>> 8c2dd74f6bf7b628cc081114ca58de1060e0108d
 
                     b.HasKey("ID");
 
                     b.HasIndex("NewsID");
 
-<<<<<<< HEAD
-                    b.ToTable("Images");
-=======
                     b.ToTable("Image");
->>>>>>> 8c2dd74f6bf7b628cc081114ca58de1060e0108d
                 });
 
             modelBuilder.Entity("NewsSystem.Data.Models.News", b =>
@@ -63,13 +51,9 @@ namespace NewsSystem.Data.Migrations
                         .IsRequired()
                         .HasMaxLength(255);
 
-<<<<<<< HEAD
-                    b.Property<DateTime>("dateAdded");
-=======
                     b.Property<int?>("UserID");
 
                     b.Property<DateTime>("insertionDate");
->>>>>>> 8c2dd74f6bf7b628cc081114ca58de1060e0108d
 
                     b.Property<bool>("isActive");
 
@@ -77,11 +61,8 @@ namespace NewsSystem.Data.Migrations
 
                     b.HasKey("ID");
 
-<<<<<<< HEAD
-=======
                     b.HasIndex("UserID");
 
->>>>>>> 8c2dd74f6bf7b628cc081114ca58de1060e0108d
                     b.ToTable("News");
                 });
 
@@ -95,11 +76,7 @@ namespace NewsSystem.Data.Migrations
 
                     b.HasKey("ID");
 
-<<<<<<< HEAD
-                    b.ToTable("Roles");
-=======
                     b.ToTable("Role");
->>>>>>> 8c2dd74f6bf7b628cc081114ca58de1060e0108d
                 });
 
             modelBuilder.Entity("NewsSystem.Data.Models.User", b =>
@@ -127,11 +104,7 @@ namespace NewsSystem.Data.Migrations
 
                     b.HasIndex("RoleID");
 
-<<<<<<< HEAD
-                    b.ToTable("Users");
-=======
                     b.ToTable("User");
->>>>>>> 8c2dd74f6bf7b628cc081114ca58de1060e0108d
                 });
 
             modelBuilder.Entity("NewsSystem.Data.Models.Image", b =>
@@ -141,12 +114,6 @@ namespace NewsSystem.Data.Migrations
                         .HasForeignKey("NewsID");
                 });
 
-<<<<<<< HEAD
-            modelBuilder.Entity("NewsSystem.Data.Models.User", b =>
-                {
-                    b.HasOne("NewsSystem.Data.Models.Role", "Role")
-                        .WithMany("Users")
-=======
             modelBuilder.Entity("NewsSystem.Data.Models.News", b =>
                 {
                     b.HasOne("NewsSystem.Data.Models.User", "User")
@@ -158,7 +125,6 @@ namespace NewsSystem.Data.Migrations
                 {
                     b.HasOne("NewsSystem.Data.Models.Role", "Role")
                         .WithMany()
->>>>>>> 8c2dd74f6bf7b628cc081114ca58de1060e0108d
                         .HasForeignKey("RoleID");
                 });
 #pragma warning restore 612, 618

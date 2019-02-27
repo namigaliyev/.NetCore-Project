@@ -2,6 +2,31 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.2": {
+<<<<<<< HEAD
+=======
+      "Autofac/4.9.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Autofac.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Autofac.dll": {}
+        }
+      },
+      "Autofac.Extensions.DependencyInjection/4.3.1": {
+        "type": "package",
+        "dependencies": {
+          "Autofac": "4.6.1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "1.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Autofac.Extensions.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Autofac.Extensions.DependencyInjection.dll": {}
+        }
+      },
+>>>>>>> 8c2dd74f6bf7b628cc081114ca58de1060e0108d
       "Google.Protobuf/3.5.1": {
         "type": "package",
         "dependencies": {
@@ -163,6 +188,7 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.dll": {}
         }
       },
+<<<<<<< HEAD
       "Microsoft.AspNetCore.All/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -342,6 +368,8 @@
           "build/netcoreapp2.2/_._": {}
         }
       },
+=======
+>>>>>>> 8c2dd74f6bf7b628cc081114ca58de1060e0108d
       "Microsoft.AspNetCore.Antiforgery/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -521,6 +549,7 @@
         "build": {
           "build/netcoreapp2.2/Microsoft.AspNetCore.App.props": {},
           "build/netcoreapp2.2/Microsoft.AspNetCore.App.targets": {}
+<<<<<<< HEAD
         }
       },
       "Microsoft.AspNetCore.ApplicationInsights.HostingStartup/2.2.0": {
@@ -539,6 +568,8 @@
         },
         "runtime": {
           "lib/netcoreapp2.1/Microsoft.AspNetCore.ApplicationInsights.HostingStartup.dll": {}
+=======
+>>>>>>> 8c2dd74f6bf7b628cc081114ca58de1060e0108d
         }
       },
       "Microsoft.AspNetCore.Authentication/2.2.0": {
@@ -726,6 +757,7 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.Policy.dll": {}
         }
       },
+<<<<<<< HEAD
       "Microsoft.AspNetCore.AzureAppServices.HostingStartup/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -752,6 +784,8 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.AzureAppServicesIntegration.dll": {}
         }
       },
+=======
+>>>>>>> 8c2dd74f6bf7b628cc081114ca58de1060e0108d
       "Microsoft.AspNetCore.Connections.Abstractions/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -845,6 +879,7 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.DataProtection.Abstractions.dll": {}
         }
       },
+<<<<<<< HEAD
       "Microsoft.AspNetCore.DataProtection.AzureKeyVault/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -872,6 +907,8 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.DataProtection.AzureStorage.dll": {}
         }
       },
+=======
+>>>>>>> 8c2dd74f6bf7b628cc081114ca58de1060e0108d
       "Microsoft.AspNetCore.DataProtection.Extensions/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -928,6 +965,7 @@
         }
       },
       "Microsoft.AspNetCore.Diagnostics.HealthChecks/2.2.0": {
+<<<<<<< HEAD
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
@@ -945,6 +983,25 @@
       "Microsoft.AspNetCore.HostFiltering/2.2.0": {
         "type": "package",
         "dependencies": {
+=======
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
+          "Microsoft.Extensions.Diagnostics.HealthChecks": "2.2.0",
+          "Microsoft.Extensions.Options": "2.2.0",
+          "Microsoft.Net.Http.Headers": "2.2.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Diagnostics.HealthChecks.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Diagnostics.HealthChecks.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.HostFiltering/2.2.0": {
+        "type": "package",
+        "dependencies": {
+>>>>>>> 8c2dd74f6bf7b628cc081114ca58de1060e0108d
           "Microsoft.AspNetCore.Hosting.Abstractions": "2.2.0",
           "Microsoft.AspNetCore.Http": "2.2.0",
           "Microsoft.AspNetCore.Http.Extensions": "2.2.0",
@@ -1654,6 +1711,7 @@
         }
       },
       "Microsoft.AspNetCore.Server.IIS/2.2.0": {
+<<<<<<< HEAD
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Authentication.Core": "2.2.0",
@@ -1686,6 +1744,40 @@
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Authentication.Core": "2.2.0",
+=======
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Authentication.Core": "2.2.0",
+          "Microsoft.AspNetCore.Connections.Abstractions": "2.2.0",
+          "Microsoft.AspNetCore.Hosting.Abstractions": "2.2.0",
+          "System.IO.Pipelines": "4.5.2",
+          "System.Security.Principal.Windows": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Server.IIS.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Server.IIS.dll": {}
+        },
+        "build": {
+          "build/netstandard2.0/Microsoft.AspNetCore.Server.IIS.targets": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win-x64/nativeassets/netcoreapp2.2/aspnetcorev2_inprocess.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/nativeassets/netcoreapp2.2/aspnetcorev2_inprocess.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Server.IISIntegration/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Authentication.Core": "2.2.0",
+>>>>>>> 8c2dd74f6bf7b628cc081114ca58de1060e0108d
           "Microsoft.AspNetCore.Hosting.Abstractions": "2.2.0",
           "Microsoft.AspNetCore.Http": "2.2.0",
           "Microsoft.AspNetCore.Http.Extensions": "2.2.0",
@@ -1773,6 +1865,7 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll": {}
         }
       },
+<<<<<<< HEAD
       "Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -1789,6 +1882,8 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.dll": {}
         }
       },
+=======
+>>>>>>> 8c2dd74f6bf7b628cc081114ca58de1060e0108d
       "Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -1878,6 +1973,7 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Protocols.Json.dll": {}
         }
       },
+<<<<<<< HEAD
       "Microsoft.AspNetCore.SignalR.Redis/1.1.0": {
         "type": "package",
         "dependencies": {
@@ -1893,6 +1989,8 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Redis.dll": {}
         }
       },
+=======
+>>>>>>> 8c2dd74f6bf7b628cc081114ca58de1060e0108d
       "Microsoft.AspNetCore.SpaServices/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -2304,6 +2402,7 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll": {}
         }
       },
+<<<<<<< HEAD
       "Microsoft.EntityFrameworkCore.Sqlite/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -2331,6 +2430,8 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Sqlite.dll": {}
         }
       },
+=======
+>>>>>>> 8c2dd74f6bf7b628cc081114ca58de1060e0108d
       "Microsoft.EntityFrameworkCore.SqlServer/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -2382,11 +2483,16 @@
           "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.dll": {}
         }
       },
+<<<<<<< HEAD
       "Microsoft.Extensions.Caching.Redis/2.2.0": {
+=======
+      "Microsoft.Extensions.Caching.SqlServer/2.2.0": {
+>>>>>>> 8c2dd74f6bf7b628cc081114ca58de1060e0108d
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Caching.Abstractions": "2.2.0",
           "Microsoft.Extensions.Options": "2.2.0",
+<<<<<<< HEAD
           "StackExchange.Redis.StrongName": "1.2.6"
         },
         "compile": {
@@ -2401,6 +2507,8 @@
         "dependencies": {
           "Microsoft.Extensions.Caching.Abstractions": "2.2.0",
           "Microsoft.Extensions.Options": "2.2.0",
+=======
+>>>>>>> 8c2dd74f6bf7b628cc081114ca58de1060e0108d
           "System.Data.SqlClient": "4.6.0"
         },
         "compile": {
@@ -2828,6 +2936,7 @@
           "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
         }
       },
+<<<<<<< HEAD
       "Microsoft.Extensions.Logging.AzureAppServices/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -2848,6 +2957,11 @@
       "Microsoft.Extensions.Logging.Configuration/2.2.0": {
         "type": "package",
         "dependencies": {
+=======
+      "Microsoft.Extensions.Logging.Configuration/2.2.0": {
+        "type": "package",
+        "dependencies": {
+>>>>>>> 8c2dd74f6bf7b628cc081114ca58de1060e0108d
           "Microsoft.Extensions.Logging": "2.2.0",
           "Microsoft.Extensions.Options.ConfigurationExtensions": "2.2.0"
         },
@@ -2961,6 +3075,7 @@
           "lib/netstandard2.0/Microsoft.Extensions.Options.DataAnnotations.dll": {}
         }
       },
+<<<<<<< HEAD
       "Microsoft.Extensions.PlatformAbstractions/1.1.0": {
         "type": "package",
         "dependencies": {
@@ -2974,6 +3089,8 @@
           "lib/netstandard1.3/Microsoft.Extensions.PlatformAbstractions.dll": {}
         }
       },
+=======
+>>>>>>> 8c2dd74f6bf7b628cc081114ca58de1060e0108d
       "Microsoft.Extensions.Primitives/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -3001,6 +3118,7 @@
           "lib/netstandard2.0/Microsoft.Extensions.WebEncoders.dll": {}
         }
       },
+<<<<<<< HEAD
       "Microsoft.IdentityModel.Clients.ActiveDirectory/3.19.8": {
         "type": "package",
         "dependencies": {
@@ -3017,6 +3135,8 @@
           "lib/netstandard1.3/Microsoft.IdentityModel.Clients.ActiveDirectory.dll": {}
         }
       },
+=======
+>>>>>>> 8c2dd74f6bf7b628cc081114ca58de1060e0108d
       "Microsoft.IdentityModel.JsonWebTokens/5.3.0": {
         "type": "package",
         "dependencies": {
@@ -3609,6 +3729,7 @@
         }
       },
       "runtime.native.System.IO.Compression/4.3.0": {
+<<<<<<< HEAD
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
@@ -3622,6 +3743,8 @@
         }
       },
       "runtime.native.System.Net.Http/4.3.0": {
+=======
+>>>>>>> 8c2dd74f6bf7b628cc081114ca58de1060e0108d
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
@@ -5683,6 +5806,43 @@
     }
   },
   "libraries": {
+    "Autofac/4.9.1": {
+      "sha512": "Dk3UQD94XM2HBjquOZoPWrQBUcv9G/K24K/qTiUJi13Fz/0X/wxcQi8z3K1ProCPxuZvadSgrzbpbni2HX1YTg==",
+      "type": "package",
+      "path": "autofac/4.9.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "autofac.4.9.1.nupkg.sha512",
+        "autofac.nuspec",
+        "lib/net45/Autofac.dll",
+        "lib/net45/Autofac.pdb",
+        "lib/net45/Autofac.xml",
+        "lib/netstandard1.1/Autofac.dll",
+        "lib/netstandard1.1/Autofac.pdb",
+        "lib/netstandard1.1/Autofac.xml",
+        "lib/netstandard2.0/Autofac.dll",
+        "lib/netstandard2.0/Autofac.pdb",
+        "lib/netstandard2.0/Autofac.xml"
+      ]
+    },
+    "Autofac.Extensions.DependencyInjection/4.3.1": {
+      "sha512": "vWa3PzmRA7m+Az5oqfu7tKDdMnS8wkVvYX04640y177gBWrP74gEzJ9rbqtRzVO0IPAxHAKvHS6LBSaDR66u8Q==",
+      "type": "package",
+      "path": "autofac.extensions.dependencyinjection/4.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "autofac.extensions.dependencyinjection.4.3.1.nupkg.sha512",
+        "autofac.extensions.dependencyinjection.nuspec",
+        "lib/netstandard1.1/Autofac.Extensions.DependencyInjection.dll",
+        "lib/netstandard1.1/Autofac.Extensions.DependencyInjection.pdb",
+        "lib/netstandard1.1/Autofac.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.0/Autofac.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.0/Autofac.Extensions.DependencyInjection.pdb",
+        "lib/netstandard2.0/Autofac.Extensions.DependencyInjection.xml"
+      ]
+    },
     "Google.Protobuf/3.5.1": {
       "sha512": "f2k1VNaB9bfvEsvARzzEL1TZiIpL33KKK3JMH7UANlPlJVptuvsk4qpBZEnz0pORWZOdUHlVwMQuUzFqjJYCxA==",
       "type": "package",
@@ -5822,6 +5982,7 @@
         "microsoft.aspnetcore.nuspec"
       ]
     },
+<<<<<<< HEAD
     "Microsoft.AspNetCore.All/2.2.0": {
       "sha512": "CeqRGRIBgTXQwgI1SEk6QFfkFctjFpHgxDPEP0Ecbyxt3Kvun6dfPR5yPavlkNMs0eCmywXAJJGmt6V7cavwzw==",
       "type": "package",
@@ -5836,6 +5997,8 @@
         "microsoft.aspnetcore.all.nuspec"
       ]
     },
+=======
+>>>>>>> 8c2dd74f6bf7b628cc081114ca58de1060e0108d
     "Microsoft.AspNetCore.Antiforgery/2.2.0": {
       "sha512": "1eMLxqY2DqvkMqpw8FZtGLPWGLm8lEMTZ9tc0Gmr7PlBGuaPODHu8LjTxy+G0lthBLKhVzrbf8SC57vYGKKMvg==",
       "type": "package",
@@ -5863,6 +6026,7 @@
         "microsoft.aspnetcore.app.nuspec"
       ]
     },
+<<<<<<< HEAD
     "Microsoft.AspNetCore.ApplicationInsights.HostingStartup/2.2.0": {
       "sha512": "MWAOPQIoNmlqOvuKY30vlhpR76cMT/q0tHG6ISf4bEHT+Nw8K7h5YY4Zjda9xStWOYLisEhlRO09FU+Pa+fLAg==",
       "type": "package",
@@ -5880,6 +6044,8 @@
         "microsoft.aspnetcore.applicationinsights.hostingstartup.nuspec"
       ]
     },
+=======
+>>>>>>> 8c2dd74f6bf7b628cc081114ca58de1060e0108d
     "Microsoft.AspNetCore.Authentication/2.2.0": {
       "sha512": "boC4p3WFgi5CBPoCNjePOySOUvqtmQ+Zt4C9eNl7GNvWHta7e0L5Rioz9HFfldiNVtYvZVN0LATLUI7j40dH+A==",
       "type": "package",
@@ -6062,6 +6228,7 @@
         "microsoft.aspnetcore.authorization.policy.nuspec"
       ]
     },
+<<<<<<< HEAD
     "Microsoft.AspNetCore.AzureAppServices.HostingStartup/2.2.0": {
       "sha512": "UoyERwF0xKlBaNBB7LiSOYATQKJ/rSjeIG0v22++GP5VabNTFlt7IaSfwyb9V7mEfTYQQetMRg2+9pYOyj1cjQ==",
       "type": "package",
@@ -6092,6 +6259,8 @@
         "microsoft.aspnetcore.azureappservicesintegration.nuspec"
       ]
     },
+=======
+>>>>>>> 8c2dd74f6bf7b628cc081114ca58de1060e0108d
     "Microsoft.AspNetCore.Connections.Abstractions/2.2.0": {
       "sha512": "kVUs6goC3YAzArLbITLhnHHFCz3/7udsMgGo2ZB0HfAhFR1OREjBPAQIUjr+1n8STABxtrkmiCwvBuIEIWdr+Q==",
       "type": "package",
@@ -6185,6 +6354,7 @@
         "microsoft.aspnetcore.dataprotection.abstractions.nuspec"
       ]
     },
+<<<<<<< HEAD
     "Microsoft.AspNetCore.DataProtection.AzureKeyVault/2.2.0": {
       "sha512": "o/BcoOzvja/WM7vBDT2dbWDnJyrvT83AqkdSpyashKQtU2pG3S+fs5RWV3zeW1D9KgBIlrilGhI99g1TauZnWQ==",
       "type": "package",
@@ -6211,6 +6381,8 @@
         "microsoft.aspnetcore.dataprotection.azurestorage.nuspec"
       ]
     },
+=======
+>>>>>>> 8c2dd74f6bf7b628cc081114ca58de1060e0108d
     "Microsoft.AspNetCore.DataProtection.Extensions/2.2.0": {
       "sha512": "SdOyLQQlYLO7P08LFLzjJVJW7PCv62CnyXJHT3Q+4ZjLc1eVWgz+1C0/E6rBKhF/z5zkFClgPEEYOK1lGhqtBw==",
       "type": "package",
@@ -6946,6 +7118,7 @@
     },
     "Microsoft.AspNetCore.Server.IIS/2.2.0": {
       "sha512": "QOcIUvyLA2dlN8Tw4P5wHLTh8u8MWpLH0I7qxs/EYe06n75IfxAFZN1Oy4GSnivYeLyaWTR+Gn7l4MkqklsWuw==",
+<<<<<<< HEAD
       "type": "package",
       "path": "microsoft.aspnetcore.server.iis/2.2.0",
       "files": [
@@ -6967,6 +7140,29 @@
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+=======
+      "type": "package",
+      "path": "microsoft.aspnetcore.server.iis/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/netstandard2.0/Microsoft.AspNetCore.Server.IIS.targets",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Server.IIS.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Server.IIS.xml",
+        "microsoft.aspnetcore.server.iis.2.2.0.nupkg.sha512",
+        "microsoft.aspnetcore.server.iis.nuspec",
+        "runtimes/win-x64/nativeassets/netcoreapp2.2/aspnetcorev2_inprocess.dll",
+        "runtimes/win-x86/nativeassets/netcoreapp2.2/aspnetcorev2_inprocess.dll"
+      ]
+    },
+    "Microsoft.AspNetCore.Server.IISIntegration/2.2.0": {
+      "sha512": "Y0Q7zpxU/ArO+RUh0CI10GT2ze66JZvpax/SKykR2Sr0UfRTQSptGfT4+p14RmpKFzSmNb/HqibOqoNzqhWnIw==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.server.iisintegration/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+>>>>>>> 8c2dd74f6bf7b628cc081114ca58de1060e0108d
         "build/netstandard2.0/Microsoft.AspNetCore.Server.IISIntegration.targets",
         "lib/netstandard2.0/Microsoft.AspNetCore.Server.IISIntegration.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Server.IISIntegration.xml",
@@ -7030,6 +7226,7 @@
         "microsoft.aspnetcore.server.kestrel.transport.abstractions.nuspec"
       ]
     },
+<<<<<<< HEAD
     "Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv/2.2.0": {
       "sha512": "9zxVm3F215TDAGmWVKRZMFyG0GH5BvaxImBvNVv33jmapIeJBzN7rfNPdNHpNlfCPEC1Iefnz3ANn+4M4ZhqQg==",
       "type": "package",
@@ -7043,6 +7240,8 @@
         "microsoft.aspnetcore.server.kestrel.transport.libuv.nuspec"
       ]
     },
+=======
+>>>>>>> 8c2dd74f6bf7b628cc081114ca58de1060e0108d
     "Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets/2.2.0": {
       "sha512": "JNnlYhElXeWzc2SVjmvA+Wttmg36VjElucbmFPh0A7ksF7sfnDXUY98uVh5nbnT3srntP8BHiqgWC7WgwmyZqw==",
       "type": "package",
@@ -7125,6 +7324,7 @@
         "microsoft.aspnetcore.signalr.protocols.json.nuspec"
       ]
     },
+<<<<<<< HEAD
     "Microsoft.AspNetCore.SignalR.Redis/1.1.0": {
       "sha512": "G/qkdJYX+nGWV7dOAGTVlw0gYgdClH/5AXxNeomaEMx+ZbMpfbpr7Oq1Iow7TmJQX04jZiG/JHCKyol+84tBDg==",
       "type": "package",
@@ -7138,6 +7338,8 @@
         "microsoft.aspnetcore.signalr.redis.nuspec"
       ]
     },
+=======
+>>>>>>> 8c2dd74f6bf7b628cc081114ca58de1060e0108d
     "Microsoft.AspNetCore.SpaServices/2.2.0": {
       "sha512": "XY5aJLyf8pTSEcH8BCXWeVAdcblvTWcAUR6qAGIsRfeIzH1Zji6srHF7Z3ASBeACwEG5V0klQ26THFiWgYs1Iw==",
       "type": "package",
@@ -7634,6 +7836,7 @@
         "microsoft.entityframeworkcore.relational.nuspec"
       ]
     },
+<<<<<<< HEAD
     "Microsoft.EntityFrameworkCore.Sqlite/2.2.0": {
       "sha512": "OWY9LfFxr6p8PYdG+mh9VirwnrId8jMusH7/6F8VlsWviYmneMyZU9e7nkCgKECf5w/MTlf8Q8lSF9zcG5Q2zA==",
       "type": "package",
@@ -7659,6 +7862,8 @@
         "microsoft.entityframeworkcore.sqlite.core.nuspec"
       ]
     },
+=======
+>>>>>>> 8c2dd74f6bf7b628cc081114ca58de1060e0108d
     "Microsoft.EntityFrameworkCore.SqlServer/2.2.0": {
       "sha512": "6wGv0oqusLfjfznd9hpbkeKs5vNYJ9UDyFMj+u2cHyZZZOKcGhtANXFqS5JusDWQmYfkX3tDZSRFIr+3zdCU8Q==",
       "type": "package",
@@ -7722,6 +7927,7 @@
         "microsoft.extensions.caching.memory.nuspec"
       ]
     },
+<<<<<<< HEAD
     "Microsoft.Extensions.Caching.Redis/2.2.0": {
       "sha512": "t4PK+PDGx8WLYxZR5LmSv5iBv/8RfnblYct+f7QwSNboeAhgO2WZm/AhuyXXv6scBOhlyuyAHNGflSPgmbhHIA==",
       "type": "package",
@@ -7735,6 +7941,8 @@
         "microsoft.extensions.caching.redis.nuspec"
       ]
     },
+=======
+>>>>>>> 8c2dd74f6bf7b628cc081114ca58de1060e0108d
     "Microsoft.Extensions.Caching.SqlServer/2.2.0": {
       "sha512": "VYj0TRJT5M3dwEI70d2mWDHLSPQ9ufwoi94G0TWIaZUfpA7kSERdSDfE72FtizKMn08fD3Hx0OpMcYNSu01gPg==",
       "type": "package",
@@ -7814,7 +8022,11 @@
       ]
     },
     "Microsoft.Extensions.Configuration.EnvironmentVariables/2.2.0": {
+<<<<<<< HEAD
       "sha512": "gIqt9PkKO01hZ0zmHnWrZ1E45MDreZTVoyDbL1kMWKtDgxxWTJpYtESTEcgpvR1uB1iex1zKGYzJpOMgmuP5TQ==",
+=======
+      "sha512": "nIQTzgq/qwRTDvAP299SSrFeqXJHhPzw+a6tDPwhvWwcA095KrJYGhAwYy/aer6UB4Q9T7s5va6q7MhgrelrAg==",
+>>>>>>> 8c2dd74f6bf7b628cc081114ca58de1060e0108d
       "type": "package",
       "path": "microsoft.extensions.configuration.environmentvariables/2.2.0",
       "files": [
@@ -8183,6 +8395,7 @@
         "microsoft.extensions.logging.abstractions.nuspec"
       ]
     },
+<<<<<<< HEAD
     "Microsoft.Extensions.Logging.AzureAppServices/2.2.0": {
       "sha512": "FvoqDWUE58hM9HIuZvKnHvhitHoaIwKuKQeLA4jDWjKQ5771RXxtMhqhHjHtzt/t/6u4zUFFADQU8fqlncjqRw==",
       "type": "package",
@@ -8196,6 +8409,8 @@
         "microsoft.extensions.logging.azureappservices.nuspec"
       ]
     },
+=======
+>>>>>>> 8c2dd74f6bf7b628cc081114ca58de1060e0108d
     "Microsoft.Extensions.Logging.Configuration/2.2.0": {
       "sha512": "IdZqlqNyAF07pT1EsBqNJOdWXtXak0k20HJUSgUk/er+cWUOJDDfzbRRTHEZ32TpqVpIhm2my+k1ti9B5jHg/g==",
       "type": "package",
@@ -8313,6 +8528,7 @@
         "microsoft.extensions.options.dataannotations.nuspec"
       ]
     },
+<<<<<<< HEAD
     "Microsoft.Extensions.PlatformAbstractions/1.1.0": {
       "sha512": "H6ZsQzxYw/6k2DfEQRXdC+vQ6obd6Uba3uGJrnJ2vG4PRXjQZ7seB13JdCfE72abp8E6Fk3gGgDzfJiLZi5ZpQ==",
       "type": "package",
@@ -8327,6 +8543,8 @@
         "microsoft.extensions.platformabstractions.nuspec"
       ]
     },
+=======
+>>>>>>> 8c2dd74f6bf7b628cc081114ca58de1060e0108d
     "Microsoft.Extensions.Primitives/2.2.0": {
       "sha512": "azyQtqbm4fSaDzZHD/J+V6oWMFaf2tWP4WEGIYePLCMw3+b2RQdj9ybgbQyjCshcitQKQ4lEDOZjmSlTTrHxUg==",
       "type": "package",
@@ -8353,6 +8571,7 @@
         "microsoft.extensions.webencoders.nuspec"
       ]
     },
+<<<<<<< HEAD
     "Microsoft.IdentityModel.Clients.ActiveDirectory/3.19.8": {
       "sha512": "iaIYYCzbbarjmDm4Zp98HYL0eeoayPoe/4y6eBMNH3zimKbmljkDzhBd5yWvA4D91mrnuArh2uXxLavTWRr7aw==",
       "type": "package",
@@ -8421,6 +8640,37 @@
     "Microsoft.IdentityModel.Logging/5.3.0": {
       "sha512": "y2Hu8ypzoZbyxJiU2LQHkkCUjl5H1oAVapRbEQBbhrUe7hG2g8t+1Hb3NAhmM1SqStd71+rZR27TWv2mc6Isfw==",
       "type": "package",
+=======
+    "Microsoft.IdentityModel.JsonWebTokens/5.3.0": {
+      "sha512": "GmiwCJPEe+V8+2GO3kD8K0IeqNHlTL0xZcHePIjyJveRn7OderxdT32aCZeJZEvz5w2Jlyag3zdyu1zkdTJo2A==",
+      "type": "package",
+      "path": "microsoft.identitymodel.jsonwebtokens/5.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.IdentityModel.JsonWebTokens.dll",
+        "lib/net45/Microsoft.IdentityModel.JsonWebTokens.pdb",
+        "lib/net45/Microsoft.IdentityModel.JsonWebTokens.xml",
+        "lib/net451/Microsoft.IdentityModel.JsonWebTokens.dll",
+        "lib/net451/Microsoft.IdentityModel.JsonWebTokens.pdb",
+        "lib/net451/Microsoft.IdentityModel.JsonWebTokens.xml",
+        "lib/net461/Microsoft.IdentityModel.JsonWebTokens.dll",
+        "lib/net461/Microsoft.IdentityModel.JsonWebTokens.pdb",
+        "lib/net461/Microsoft.IdentityModel.JsonWebTokens.xml",
+        "lib/netstandard1.4/Microsoft.IdentityModel.JsonWebTokens.dll",
+        "lib/netstandard1.4/Microsoft.IdentityModel.JsonWebTokens.pdb",
+        "lib/netstandard1.4/Microsoft.IdentityModel.JsonWebTokens.xml",
+        "lib/netstandard2.0/Microsoft.IdentityModel.JsonWebTokens.dll",
+        "lib/netstandard2.0/Microsoft.IdentityModel.JsonWebTokens.pdb",
+        "lib/netstandard2.0/Microsoft.IdentityModel.JsonWebTokens.xml",
+        "microsoft.identitymodel.jsonwebtokens.5.3.0.nupkg.sha512",
+        "microsoft.identitymodel.jsonwebtokens.nuspec"
+      ]
+    },
+    "Microsoft.IdentityModel.Logging/5.3.0": {
+      "sha512": "y2Hu8ypzoZbyxJiU2LQHkkCUjl5H1oAVapRbEQBbhrUe7hG2g8t+1Hb3NAhmM1SqStd71+rZR27TWv2mc6Isfw==",
+      "type": "package",
+>>>>>>> 8c2dd74f6bf7b628cc081114ca58de1060e0108d
       "path": "microsoft.identitymodel.logging/5.3.0",
       "files": [
         ".nupkg.metadata",
@@ -8943,7 +9193,6 @@
       "path": "microsoft.netcore.targets/2.0.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/netstandard1.0/_._",
@@ -14721,14 +14970,27 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
+<<<<<<< HEAD
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
       "Microsoft.EntityFrameworkCore.Tools >= 2.2.0",
+=======
+      "Autofac >= 4.9.1",
+      "Autofac.Extensions.DependencyInjection >= 4.3.1",
+      "Microsoft.AspNetCore.App >= 2.2.0",
+      "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
+      "Microsoft.EntityFrameworkCore.Tools >= 2.2.0",
+      "Microsoft.Extensions.Logging.Abstractions >= 2.2.0",
+>>>>>>> 8c2dd74f6bf7b628cc081114ca58de1060e0108d
       "Microsoft.NETCore.App >= 2.2.0",
       "MySql.Data >= 8.0.15",
       "MySql.Data.EntityFrameworkCore >= 8.0.15",
       "MySql.Data.EntityFrameworkCore.Design >= 8.0.15",
+<<<<<<< HEAD
       "NewsSystem.Core >= 1.0.0",
+=======
+      "NewsSystem.Data >= 1.0.0",
+>>>>>>> 8c2dd74f6bf7b628cc081114ca58de1060e0108d
       "Pomelo.EntityFrameworkCore.MySql >= 2.2.0"
     ]
   },
@@ -14777,6 +15039,14 @@
     "frameworks": {
       "netcoreapp2.2": {
         "dependencies": {
+          "Autofac": {
+            "target": "Package",
+            "version": "[4.9.1, )"
+          },
+          "Autofac.Extensions.DependencyInjection": {
+            "target": "Package",
+            "version": "[4.3.1, )"
+          },
           "Microsoft.AspNetCore.App": {
             "suppressParent": "All",
             "target": "Package",
@@ -14789,6 +15059,10 @@
             "version": "[2.2.0, )"
           },
           "Microsoft.EntityFrameworkCore.Tools": {
+            "target": "Package",
+            "version": "[2.2.0, )"
+          },
+          "Microsoft.Extensions.Logging.Abstractions": {
             "target": "Package",
             "version": "[2.2.0, )"
           },

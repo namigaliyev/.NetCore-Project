@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 E:\Example\.NetCore-Project\NewsSystem.Admin\bin\Debug\netcoreapp2.2\NewsSystem.Admin.deps.json
 E:\Example\.NetCore-Project\NewsSystem.Admin\bin\Debug\netcoreapp2.2\NewsSystem.Admin.runtimeconfig.json
 E:\Example\.NetCore-Project\NewsSystem.Admin\bin\Debug\netcoreapp2.2\NewsSystem.Admin.runtimeconfig.dev.json
@@ -32,3 +33,39 @@ E:\Example\.NetCore-Project\NewsSystem.Admin\obj\Debug\netcoreapp2.2\NewsSystem.
 E:\Example\.NetCore-Project\NewsSystem.Admin\obj\Debug\netcoreapp2.2\NewsSystem.Admin.csproj.CopyComplete
 E:\Example\.NetCore-Project\NewsSystem.Admin\obj\Debug\netcoreapp2.2\NewsSystem.Admin.dll
 E:\Example\.NetCore-Project\NewsSystem.Admin\obj\Debug\netcoreapp2.2\NewsSystem.Admin.pdb
+=======
+/home/namigaliyev/Desktop/github/NewsPortal/.NetCore-Project/NewsSystem.Admin/obj/Debug/netcoreapp2.2/NewsSystem.Admin.csprojAssemblyReference.cache
+/home/namigaliyev/Desktop/github/NewsPortal/.NetCore-Project/NewsSystem.Admin/obj/Debug/netcoreapp2.2/NewsSystem.Admin.csproj.CoreCompileInputs.cache
+/home/namigaliyev/Desktop/github/NewsPortal/.NetCore-Project/NewsSystem.Admin/obj/Debug/netcoreapp2.2/NewsSystem.Admin.RazorAssemblyInfo.cache
+/home/namigaliyev/Desktop/github/NewsPortal/.NetCore-Project/NewsSystem.Admin/obj/Debug/netcoreapp2.2/NewsSystem.Admin.RazorAssemblyInfo.cs
+/home/namigaliyev/Desktop/github/NewsPortal/.NetCore-Project/NewsSystem.Admin/obj/Debug/netcoreapp2.2/NewsSystem.Admin.AssemblyInfoInputs.cache
+/home/namigaliyev/Desktop/github/NewsPortal/.NetCore-Project/NewsSystem.Admin/obj/Debug/netcoreapp2.2/NewsSystem.Admin.AssemblyInfo.cs
+/home/namigaliyev/Desktop/github/NewsPortal/.NetCore-Project/NewsSystem.Admin/bin/Debug/netcoreapp2.2/NewsSystem.Admin.deps.json
+/home/namigaliyev/Desktop/github/NewsPortal/.NetCore-Project/NewsSystem.Admin/bin/Debug/netcoreapp2.2/NewsSystem.Admin.runtimeconfig.json
+/home/namigaliyev/Desktop/github/NewsPortal/.NetCore-Project/NewsSystem.Admin/bin/Debug/netcoreapp2.2/NewsSystem.Admin.runtimeconfig.dev.json
+/home/namigaliyev/Desktop/github/NewsPortal/.NetCore-Project/NewsSystem.Admin/bin/Debug/netcoreapp2.2/NewsSystem.Admin.dll
+/home/namigaliyev/Desktop/github/NewsPortal/.NetCore-Project/NewsSystem.Admin/bin/Debug/netcoreapp2.2/NewsSystem.Admin.pdb
+/home/namigaliyev/Desktop/github/NewsPortal/.NetCore-Project/NewsSystem.Admin/bin/Debug/netcoreapp2.2/NewsSystem.Admin.Views.dll
+/home/namigaliyev/Desktop/github/NewsPortal/.NetCore-Project/NewsSystem.Admin/bin/Debug/netcoreapp2.2/NewsSystem.Admin.Views.pdb
+/home/namigaliyev/Desktop/github/NewsPortal/.NetCore-Project/NewsSystem.Admin/bin/Debug/netcoreapp2.2/NewsSystem.Data.dll
+/home/namigaliyev/Desktop/github/NewsPortal/.NetCore-Project/NewsSystem.Admin/bin/Debug/netcoreapp2.2/NewsSystem.Data.pdb
+/home/namigaliyev/Desktop/github/NewsPortal/.NetCore-Project/NewsSystem.Admin/obj/Debug/netcoreapp2.2/NewsSystem.Admin.TagHelpers.input.cache
+/home/namigaliyev/Desktop/github/NewsPortal/.NetCore-Project/NewsSystem.Admin/obj/Debug/netcoreapp2.2/NewsSystem.Admin.TagHelpers.output.cache
+/home/namigaliyev/Desktop/github/NewsPortal/.NetCore-Project/NewsSystem.Admin/obj/Debug/netcoreapp2.2/NewsSystem.Admin.RazorCoreGenerate.cache
+/home/namigaliyev/Desktop/github/NewsPortal/.NetCore-Project/NewsSystem.Admin/obj/Debug/netcoreapp2.2/Razor/Views/Home/About.g.cshtml.cs
+/home/namigaliyev/Desktop/github/NewsPortal/.NetCore-Project/NewsSystem.Admin/obj/Debug/netcoreapp2.2/Razor/Views/Home/Contact.g.cshtml.cs
+/home/namigaliyev/Desktop/github/NewsPortal/.NetCore-Project/NewsSystem.Admin/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs
+/home/namigaliyev/Desktop/github/NewsPortal/.NetCore-Project/NewsSystem.Admin/obj/Debug/netcoreapp2.2/Razor/Views/Home/Privacy.g.cshtml.cs
+/home/namigaliyev/Desktop/github/NewsPortal/.NetCore-Project/NewsSystem.Admin/obj/Debug/netcoreapp2.2/Razor/Views/Shared/Error.g.cshtml.cs
+/home/namigaliyev/Desktop/github/NewsPortal/.NetCore-Project/NewsSystem.Admin/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs
+/home/namigaliyev/Desktop/github/NewsPortal/.NetCore-Project/NewsSystem.Admin/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.g.cshtml.cs
+/home/namigaliyev/Desktop/github/NewsPortal/.NetCore-Project/NewsSystem.Admin/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_ValidationScriptsPartial.g.cshtml.cs
+/home/namigaliyev/Desktop/github/NewsPortal/.NetCore-Project/NewsSystem.Admin/obj/Debug/netcoreapp2.2/Razor/Views/_ViewImports.g.cshtml.cs
+/home/namigaliyev/Desktop/github/NewsPortal/.NetCore-Project/NewsSystem.Admin/obj/Debug/netcoreapp2.2/Razor/Views/_ViewStart.g.cshtml.cs
+/home/namigaliyev/Desktop/github/NewsPortal/.NetCore-Project/NewsSystem.Admin/obj/Debug/netcoreapp2.2/NewsSystem.Admin.RazorTargetAssemblyInfo.cache
+/home/namigaliyev/Desktop/github/NewsPortal/.NetCore-Project/NewsSystem.Admin/obj/Debug/netcoreapp2.2/NewsSystem.Admin.RazorTargetAssemblyInfo.cs
+/home/namigaliyev/Desktop/github/NewsPortal/.NetCore-Project/NewsSystem.Admin/obj/Debug/netcoreapp2.2/NewsSystem.Admin.Views.pdb
+/home/namigaliyev/Desktop/github/NewsPortal/.NetCore-Project/NewsSystem.Admin/obj/Debug/netcoreapp2.2/NewsSystem.Admin.csproj.CopyComplete
+/home/namigaliyev/Desktop/github/NewsPortal/.NetCore-Project/NewsSystem.Admin/obj/Debug/netcoreapp2.2/NewsSystem.Admin.dll
+/home/namigaliyev/Desktop/github/NewsPortal/.NetCore-Project/NewsSystem.Admin/obj/Debug/netcoreapp2.2/NewsSystem.Admin.pdb
+>>>>>>> 8c2dd74f6bf7b628cc081114ca58de1060e0108d

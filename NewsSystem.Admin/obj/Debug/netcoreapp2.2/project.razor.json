@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "ProjectFilePath": "e:\\Example\\.NetCore-Project\\NewsSystem.Admin\\NewsSystem.Admin.csproj",
+=======
+  "ProjectFilePath": "/home/namigaliyev/Desktop/github/NewsPortal/.NetCore-Project/NewsSystem.Admin/NewsSystem.Admin.csproj",
+>>>>>>> 8c2dd74f6bf7b628cc081114ca58de1060e0108d
   "TargetFramework": "netcoreapp2.2",
   "TagHelpers": [],
   "Configuration": {
