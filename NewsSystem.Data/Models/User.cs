@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace NewsSystem.Data.Models
 {
-    [Table("User")]
+    [Table("Users")]
     public class User
     {
         [Key]
@@ -14,6 +14,7 @@ namespace NewsSystem.Data.Models
         public string NameSurname { get; set; }
 
         [Required]
+        [DataType(DataType.EmailAddress)]
         public string Email { get; set; }
 
         [DataType(DataType.Password)]

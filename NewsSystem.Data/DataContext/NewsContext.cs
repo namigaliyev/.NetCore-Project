@@ -1,29 +1,25 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Microsoft.EntityFrameworkCore;
 using NewsSystem.Data.Models;
-using Microsoft.EntityFrameworkCore.Infrastructure;
-using Microsoft.EntityFrameworkCore.Design;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 
 namespace NewsSystem.Data.DataContext
 {
     public class NewsContext : DbContext
     {
-        public NewsContext(DbContextOptions < NewsContext > options): base(options) {}
+        public NewsContext(DbContextOptions<NewsContext> options): base(options) {
+
+        }
+
         public DbSet<User> Users { get; set;}
 
         public DbSet<Role> Roles { get; set;}
-    }
 
-    public class NewsContextFactory : IDesignTimeDbContextFactory<NewsContext>
-    {
-        public NewsContext CreateDbContext(string[] args)
-        {
-            var optionsBuilder = new DbContextOptionsBuilder<NewsContext>();
-            optionsBuilder.UseMySql("Data Source=NewsPortal.db");
+        public DbSet<News> News { get; set; }
 
-            return new NewsContext(optionsBuilder.Options);
-        }
+        public DbSet<Image> Images { get; set; }
+        
     }
 }

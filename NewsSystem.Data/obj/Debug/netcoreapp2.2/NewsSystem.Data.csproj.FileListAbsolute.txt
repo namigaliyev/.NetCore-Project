@@ -15,3 +15,14 @@ C:/Users/Veysel/source/repos/NewsPortal/NewsSystem.Data/obj/Debug/netcoreapp2.2/
 /home/namigaliyev/Desktop/github/NewsPortal/.NetCore-Project/NewsSystem.Data/obj/Debug/netcoreapp2.2/NewsSystem.Data.AssemblyInfo.cs
 /home/namigaliyev/Desktop/github/NewsPortal/.NetCore-Project/NewsSystem.Data/obj/Debug/netcoreapp2.2/NewsSystem.Data.dll
 /home/namigaliyev/Desktop/github/NewsPortal/.NetCore-Project/NewsSystem.Data/obj/Debug/netcoreapp2.2/NewsSystem.Data.pdb
+E:\Example\.NetCore-Project\NewsSystem.Data\bin\Debug\netcoreapp2.2\NewsSystem.Data.deps.json
+E:\Example\.NetCore-Project\NewsSystem.Data\bin\Debug\netcoreapp2.2\NewsSystem.Data.runtimeconfig.json
+E:\Example\.NetCore-Project\NewsSystem.Data\bin\Debug\netcoreapp2.2\NewsSystem.Data.runtimeconfig.dev.json
+E:\Example\.NetCore-Project\NewsSystem.Data\bin\Debug\netcoreapp2.2\NewsSystem.Data.dll
+E:\Example\.NetCore-Project\NewsSystem.Data\bin\Debug\netcoreapp2.2\NewsSystem.Data.pdb
+E:\Example\.NetCore-Project\NewsSystem.Data\obj\Debug\netcoreapp2.2\NewsSystem.Data.csprojAssemblyReference.cache
+E:\Example\.NetCore-Project\NewsSystem.Data\obj\Debug\netcoreapp2.2\NewsSystem.Data.csproj.CoreCompileInputs.cache
+E:\Example\.NetCore-Project\NewsSystem.Data\obj\Debug\netcoreapp2.2\NewsSystem.Data.AssemblyInfoInputs.cache
+E:\Example\.NetCore-Project\NewsSystem.Data\obj\Debug\netcoreapp2.2\NewsSystem.Data.AssemblyInfo.cs
+E:\Example\.NetCore-Project\NewsSystem.Data\obj\Debug\netcoreapp2.2\NewsSystem.Data.dll
+E:\Example\.NetCore-Project\NewsSystem.Data\obj\Debug\netcoreapp2.2\NewsSystem.Data.pdb
