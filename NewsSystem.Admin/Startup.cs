@@ -4,6 +4,9 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using NewsSystem.Core.Repositories;
+using NewsSystem.Core.Repositories.Interfaces;
+using NewsSystem.Core.Repositories.Repository;
 
 namespace NewsSystem.Admin
 {
@@ -30,7 +33,13 @@ namespace NewsSystem.Admin
                 options.CheckConsentNeeded = context => true;
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
-            services.AddScoped(typeof(IBaseRepository<>),typeof(BaseRepository<>));
+            services.AddScoped<IImageRepository, ImageRepository>();
+            services.AddScoped<INewsRepository, NewsRepository>();
+            services.AddScoped<IRoleRepository, RoleRepository>();
+            services.AddScoped<IUserRepository, UserRepository>();
+
+
+
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
