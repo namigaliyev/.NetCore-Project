@@ -74,3 +74,4 @@ E:\Example\.NetCore-Project\NewsSystem.Admin\obj\Debug\netcoreapp2.2\NewsSystem.
 E:\Example\.NetCore-Project\NewsSystem.Admin\obj\Debug\netcoreapp2.2\NewsSystem.Admin.dll
 E:\Example\.NetCore-Project\NewsSystem.Admin\obj\Debug\netcoreapp2.2\NewsSystem.Admin.pdb
 E:\Example\.NetCore-Project\NewsSystem.Admin\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Header.g.cshtml.cs
+E:\Example\.NetCore-Project\NewsSystem.Admin\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Sidebar.g.cshtml.cs

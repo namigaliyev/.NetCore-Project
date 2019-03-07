@@ -3,61 +3,63 @@
     <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
-    <PackageReference Include="Microsoft.AspNetCore.App" />
-    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.2.0" />
-    <PackageReference Include="MySql.Data" Version="8.0.15" />
-    <PackageReference Include="MySql.Data.EntityFrameworkCore" Version="8.0.15" />
-    <PackageReference Include="MySql.Data.EntityFrameworkCore.Design" Version="8.0.15" />
-    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="2.2.0" />
-    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.3.1" />
-    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="2.2.0" />
-    <PackageReference Include="Autofac" Version="4.9.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0"/>
+    <PackageReference Include="Microsoft.AspNetCore.App"/>
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All"/>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.2.0"/>
+    <PackageReference Include="MySql.Data" Version="8.0.15"/>
+    <PackageReference Include="MySql.Data.EntityFrameworkCore" Version="8.0.15"/>
+    <PackageReference Include="MySql.Data.EntityFrameworkCore.Design" Version="8.0.15"/>
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="2.2.0"/>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.3.1"/>
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="2.2.0"/>
+    <PackageReference Include="Autofac" Version="4.9.1"/>
+    <PackageReference Include="Microsoft.AspNetCore.Session" Version="2.2.0"/>
+    <PackageReference Include="CacheManager.Microsoft.Extensions.Caching.Memory" Version="1.2.0"/>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NewsSystem.Core\NewsSystem.Core.csproj" />
+    <ProjectReference Include="..\NewsSystem.Core\NewsSystem.Core.csproj"/>
   </ItemGroup>
   <ItemGroup>
-    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.0" />
+    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.0"/>
   </ItemGroup>
   <ItemGroup>
-    <None Include="wwwroot\css\bootstrap.min.css" />
-    <None Include="wwwroot\css\font-awesome.min.css" />
-    <None Include="wwwroot\css\icheck\minimal%402x.png" />
-    <None Include="wwwroot\css\icheck\minimal.css" />
-    <None Include="wwwroot\css\icheck\minimal.png" />
-    <None Include="wwwroot\css\main.css" />
-    <None Include="wwwroot\css\main.min.css" />
-    <None Include="wwwroot\css\plugins.min.css" />
-    <None Include="wwwroot\css\typicons.min.css" />
-    <None Include="wwwroot\dist\main.js" />
-    <None Include="wwwroot\dist\page-bootstrap.js" />
-    <None Include="wwwroot\dist\page-calendar.js" />
-    <None Include="wwwroot\dist\page-charts.js" />
-    <None Include="wwwroot\dist\page-dashboard.js" />
-    <None Include="wwwroot\dist\page-form-elements.js" />
-    <None Include="wwwroot\dist\plugins\bootstrap.min.js" />
-    <None Include="wwwroot\dist\plugins\calendar\calendar.min.js" />
-    <None Include="wwwroot\dist\plugins\calendar\underscore.min.js" />
-    <None Include="wwwroot\dist\plugins\datepicker\datetimepicker.min.js" />
-    <None Include="wwwroot\dist\plugins\datepicker\moment.min.js" />
-    <None Include="wwwroot\dist\plugins\enscroll.min.js" />
-    <None Include="wwwroot\dist\plugins\flot.min.js" />
-    <None Include="wwwroot\dist\plugins\footable.min.js" />
-    <None Include="wwwroot\dist\plugins\icheck.min.js" />
-    <None Include="wwwroot\dist\plugins\jquery.min.js" />
-    <None Include="wwwroot\dist\plugins\knob.min.js" />
-    <None Include="wwwroot\dist\plugins\maskedinput.min.js" />
-    <None Include="wwwroot\dist\plugins\modernizr.min.js" />
-    <None Include="wwwroot\dist\plugins\multimenu.min.js" />
-    <None Include="wwwroot\dist\plugins\rickshaw\d3.v3.js" />
-    <None Include="wwwroot\dist\plugins\rickshaw\rickshaw.min.js" />
-    <None Include="wwwroot\dist\plugins\sparkline.min.js" />
-    <None Include="wwwroot\dist\plugins\summernote.min.js" />
+    <None Include="wwwroot\css\bootstrap.min.css"/>
+    <None Include="wwwroot\css\font-awesome.min.css"/>
+    <None Include="wwwroot\css\icheck\minimal%402x.png"/>
+    <None Include="wwwroot\css\icheck\minimal.css"/>
+    <None Include="wwwroot\css\icheck\minimal.png"/>
+    <None Include="wwwroot\css\main.css"/>
+    <None Include="wwwroot\css\main.min.css"/>
+    <None Include="wwwroot\css\plugins.min.css"/>
+    <None Include="wwwroot\css\typicons.min.css"/>
+    <None Include="wwwroot\dist\main.js"/>
+    <None Include="wwwroot\dist\page-bootstrap.js"/>
+    <None Include="wwwroot\dist\page-calendar.js"/>
+    <None Include="wwwroot\dist\page-charts.js"/>
+    <None Include="wwwroot\dist\page-dashboard.js"/>
+    <None Include="wwwroot\dist\page-form-elements.js"/>
+    <None Include="wwwroot\dist\plugins\bootstrap.min.js"/>
+    <None Include="wwwroot\dist\plugins\calendar\calendar.min.js"/>
+    <None Include="wwwroot\dist\plugins\calendar\underscore.min.js"/>
+    <None Include="wwwroot\dist\plugins\datepicker\datetimepicker.min.js"/>
+    <None Include="wwwroot\dist\plugins\datepicker\moment.min.js"/>
+    <None Include="wwwroot\dist\plugins\enscroll.min.js"/>
+    <None Include="wwwroot\dist\plugins\flot.min.js"/>
+    <None Include="wwwroot\dist\plugins\footable.min.js"/>
+    <None Include="wwwroot\dist\plugins\icheck.min.js"/>
+    <None Include="wwwroot\dist\plugins\jquery.min.js"/>
+    <None Include="wwwroot\dist\plugins\knob.min.js"/>
+    <None Include="wwwroot\dist\plugins\maskedinput.min.js"/>
+    <None Include="wwwroot\dist\plugins\modernizr.min.js"/>
+    <None Include="wwwroot\dist\plugins\multimenu.min.js"/>
+    <None Include="wwwroot\dist\plugins\rickshaw\d3.v3.js"/>
+    <None Include="wwwroot\dist\plugins\rickshaw\rickshaw.min.js"/>
+    <None Include="wwwroot\dist\plugins\sparkline.min.js"/>
+    <None Include="wwwroot\dist\plugins\summernote.min.js"/>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Content\" />
-    <Folder Include="Scripts\" />
+    <Folder Include="Content\"/>
+    <Folder Include="Scripts\"/>
   </ItemGroup>
 </Project>

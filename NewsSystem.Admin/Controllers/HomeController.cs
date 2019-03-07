@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
+using NewsSystem.Admin.CustomFilter;
 using NewsSystem.Admin.Models;
 
 namespace NewsSystem.Admin.Controllers
@@ -18,6 +19,7 @@ namespace NewsSystem.Admin.Controllers
             Configuration = config;
         }
 
+        [LoginFilter]
         public IActionResult Index()
         {
             return View();
